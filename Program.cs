@@ -1,9 +1,9 @@
 ﻿var builder = WebApplication.CreateBuilder(args);
 
-// Registrera EventManagerService
+
 builder.Services.AddSingleton<EventService.Services.EventManagerService>();
 
-// Add services to the container
+
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
