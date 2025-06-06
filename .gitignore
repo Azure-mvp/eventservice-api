@@ -1,0 +1,35 @@
+# Visual Studio cachefiler
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Byggutdata
+bin/
+obj/
+[Bb]uild/
+[Ll]ogs/
+*.log
+
+# Resurser
+*.pdb
+*.cache
+*.dbmdl
+*.bak
+*.swp
+
+# Lokala konfigfiler
+appsettings.Development.json
+appsettings.Local.json
+
+# OS-filer
+Thumbs.db
+.DS_Store
+
+# Rider/JetBrains
+.idea/
+
+# NuGet
+*.nupkg
+*.snupkg
